@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            // Console.WriteLine($"Hello, World! {TimeOfThisDay()}");
+            Console.WriteLine($"Hello, World! {CurrentTime()}");
+
             WorkingOnLoops();
         }
         private static DateTime CurrentTime()
